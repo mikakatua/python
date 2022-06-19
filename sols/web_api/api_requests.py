@@ -30,5 +30,5 @@ print("JSON response:\n %s" % pformat(response.json()))
 print("\n")
 
 response_dict = response.json()
-print("Current Time: %s" % response_dict["time"])
+print("%s Time: %s" % (response_dict["timeZone"], response_dict["time"]))
 print("\n")
