@@ -1,4 +1,3 @@
-from pprint import pprint
 import requests
 from pprint import pprint, pformat
 
